@@ -1,9 +1,12 @@
 package com.massiel.ws;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by payerdis on 10/20/15.
  */
 public class Usuario {
+    @SerializedName("avatar_url")
     String avatar;
     String nombre;
     String compania;
